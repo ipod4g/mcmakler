@@ -5,6 +5,7 @@
 1. Donwload nodejs (if you on mac use "brew install node" in terminal)
 2. In project path install dependencies npm install
 3. Start the project use npm start
+4. I added index.css file because github don't want added empty folder (this file created automaticly after you run npm run sass (but first you need install ruby and after "gem install sass")
 
 ## Technology which I use:
 1. Framework Reactjs (0.16), Redux, Javascript(ES6)
