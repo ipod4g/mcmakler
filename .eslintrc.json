@@ -1,0 +1,102 @@
+{
+  "extends": "airbnb",
+  "plugins": [
+    "react", "jsx-a11y", "import", "require-path-exists"
+  ],
+  "env": {
+    "es6": true,
+    "browser": true,
+    "amd": true
+  },
+  "globals": {
+    "$": false,
+    "_": false,
+    "google": false,
+    "FB": false
+  },
+  "rules": {
+    "radix": "off",
+    "no-underscore-dangle": "off",
+    "max-len": [2, 120, 2, {"ignoreUrls": true}],
+    "jsx-a11y/no-static-element-interactions": "off",
+    "no-prototype-builtins": "off",
+    "react/require-extension": "off",
+    "react/no-unused-prop-types": ["error", { "skipShapeProps": true }],
+    "no-use-before-define": [
+      "error",
+      {
+        "functions": false,
+        "classes": true
+      }
+    ],
+    "jsx-a11y/label-has-for": "off",
+    "jsx-a11y/href-no-hash": "off",
+    "space-before-function-paren": "off",
+    "react/jsx-space-before-closing": "off",
+    "import/no-unresolved": ["error"],
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": true,
+        "optionalDependencies": true,
+        "peerDependencies": true
+      }
+    ],
+    "import/named": ["error"],
+    "import/export": ["error"],
+    "import/default": ["error"],
+    "import/namespace": [
+      "error",
+      {
+        "allowComputed": true
+      }
+    ],
+    "import/extensions": [
+      "error",
+      {
+        "json": "always",
+        "scss": "always",
+        "js": "never",
+        "jsx": "never"
+      }
+    ],
+    "import/order": [
+      "error",
+      {
+        "groups": [
+          "builtin", "external"
+        ]
+      }
+    ],
+    "import/newline-after-import": ["error"],
+    "require-path-exists/exists": [
+      "error",
+      {
+        "extensions": [
+          "",
+          ".js",
+          ".jsx",
+          ".json",
+          ".scss",
+          ".css"
+        ]
+      }
+    ],
+    "no-debugger": ["error"],
+    "no-alert": ["error"],
+    "newline-after-var": ["error", "always"],
+    "newline-before-return": ["error"],
+    "class-methods-use-this": "off",
+    "import/prefer-default-export": "off",
+    "default-case": "off"
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "experimentalObjectRestSpread": true,
+    "ecmaFeatures": {
+      "jsx": true,
+      "modules": true
+    }
+  }
+}

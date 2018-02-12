@@ -1,0 +1,78 @@
+@import url(../../../node_modules/bootstrap/dist/css/bootstrap.min.css);
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; }
+
+.adver-wrapper {
+  border: 1px solid #eee;
+  cursor: pointer;
+  margin-bottom: 5em; }
+  .adver-wrapper:hover {
+    box-shadow: 0px 6px 22px 2px rgba(112, 108, 112, 0.72); }
+  .adver-wrapper .carousel .carousel-inner .item .apartment-image {
+    height: 200px; }
+  .adver-wrapper .main-info-wrapper {
+    margin: 2em 2em; }
+  .adver-wrapper .main-title {
+    margin: 0;
+    height: 45px;
+    overflow: hidden;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: left;
+    line-height: 1.6em;
+    word-break: break-all;
+    color: #464646; }
+  .adver-wrapper .info-button {
+    display: block;
+    position: absolute;
+    top: 2em;
+    left: 3em;
+    padding: 4px 10px;
+    border-radius: 2px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #888888;
+    background: #fff;
+    border: 1px solid #eee; }
+  .adver-wrapper .address-wrapper {
+    text-align: left;
+    margin: 1.5em 0em 3em; }
+    .adver-wrapper .address-wrapper__info {
+      margin: 0;
+      padding: 0;
+      color: #888888;
+      font-family: "Roboto", sans-serif; }
+  .adver-wrapper .price-info {
+    display: flex;
+    justify-content: space-between; }
+    .adver-wrapper .price-info__rooms {
+      position: relative;
+      margin-left: auto;
+      margin-right: 26px;
+      font-family: "Roboto", sans-serif;
+      font-weight: 300;
+      color: #888888; }
+      .adver-wrapper .price-info__rooms::after {
+        content: "";
+        display: block;
+        height: 22px;
+        width: 1px;
+        top: 0;
+        background: #888888;
+        position: absolute;
+        right: -13px; }
+    .adver-wrapper .price-info__price {
+      font-weight: bold;
+      color: #464646; }
+    .adver-wrapper .price-info__space {
+      font-family: "Roboto", sans-serif;
+      font-weight: 300;
+      color: #888888; }
+
+.main-wrapper {
+  margin-top: 3em; }
+
+/*# sourceMappingURL=index.css.map */

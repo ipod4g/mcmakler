@@ -1,0 +1,2 @@
+export const FETCH_LIST_STARTED = 'FETCH_LIST_STARTED';
+export const FETCH_LIST_END = 'FETCH_LIST_END';
